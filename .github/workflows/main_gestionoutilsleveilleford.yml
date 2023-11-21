@@ -2,7 +2,11 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy PHP app to Azure Web App - Gestionoutilsleveilleford
-
+env:
+  AZURE_WEBAPP_NAME: 'Gestionoutilsleveilleford'   # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  PHP_VERSION: '8.2'                  # set this to the PHP version to use
+  
 on:
   push:
     branches:
