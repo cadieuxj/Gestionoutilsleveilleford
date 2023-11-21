@@ -63,4 +63,4 @@ jobs:
           app-name: 'Gestionoutilsleveilleford'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D04B0E054956427EA769FA81C32884AE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8B667F74350B4FD3BA3D0CA8707900E4 }}
